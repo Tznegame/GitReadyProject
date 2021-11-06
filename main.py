@@ -48,7 +48,7 @@ if __name__ == '__main__':
             os.system('type nul > .gitignore')
             os.system('type nul > README.md')
             os.system('git add .')
-            os.system('git commit . -m "Ciao"')
+            os.system('git commit -m "First Commit"')
             os.system('git remote add origin https://github.com/'+Costants.GITHUB_USERNAME+'/' + repositoryName + '.git')
             os.system('git branch -M main')
             os.system('git push -u origin main')
