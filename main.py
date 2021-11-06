@@ -14,7 +14,6 @@ if __name__ == '__main__':
         if (repositoryName == repo['name']):
             print("A repo with the name " + repositoryName + " already exist.")
 
-
     response = requests.post(url, data=data, headers=headers)
     print("Repository created successfully!")
     if response.ok:
